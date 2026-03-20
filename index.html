@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth bg-stone-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Eid Mubarak 1447 H - Dandi</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#C5A880',
+                        ink: '#1C1917',
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Outfit"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Geometric Pattern Background (Subtle) */
+        .bg-geometric {
+            background-image: 
+                linear-gradient(to right, rgba(0,0,0,0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(0,0,0,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        /* Arch Image Masking for Geometric Look */
+        .arch-mask {
+            border-radius: 999px 999px 0 0;
+            overflow: hidden;
+        }
+
+        /* Smooth scroll hiding scrollbar for cleaner look */
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased font-sans flex justify-center min-h-screen text-ink">
+
+    <!-- Mobile Frame Container (Max-W-MD simulates iPhone on Desktop, full width on Mobile) -->
+    <main class="w-full max-w-md bg-white relative overflow-hidden shadow-2xl min-h-screen border-x border-stone-200 flex flex-col">
+        
+        <!-- Background Geometric Elements -->
+        <div class="absolute top-[-10%] left-[-20%] w-72 h-72 rounded-full border-[1px] border-gold/30 z-0"></div>
+        <div class="absolute top-[20%] right-[-10%] w-48 h-48 rounded-full border-[1px] border-stone-200 z-0"></div>
+        <div class="absolute bottom-[10%] left-[50%] translate-x-[-50%] w-[1px] h-32 bg-gold/50 z-0"></div>
+
+        <!-- Hero Section -->
+        <header class="relative z-10 pt-20 pb-12 px-8 flex flex-col items-center text-center bg-geometric h-screen justify-center">
+            
+            <!-- Geometric Diamond Accent -->
+            <div data-aos="fade-down" data-aos-duration="1500" class="w-8 h-8 border border-gold rotate-45 mb-10 flex items-center justify-center">
+                <div class="w-2 h-2 bg-gold rounded-full"></div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1500" class="relative">
+                <p class="text-xs tracking-[0.4em] uppercase mb-4 text-stone-500 font-medium">1 Syawal 1447 H</p>
+                <h1 class="font-serif text-6xl leading-tight mb-4 relative z-10 text-ink">
+                    Eid <br> Mubarak
+                </h1>
+                
+                <!-- Geometric Line Behind Text -->
+                <div class="absolute top-1/2 left-[-20px] right-[-20px] h-[1px] bg-stone-200 -z-10"></div>
+            </div>
+
+            <p data-aos="fade-up" data-aos-delay="300" class="text-lg font-light tracking-wide mt-6 text-stone-600">
+                Untuk sahabatku,<br><span class="font-medium text-ink">Dandi</span>.
+            </p>
+            
+            <a href="#message" data-aos="fade-in" data-aos-delay="800" class="absolute bottom-12 animate-bounce p-3 border border-stone-200 rounded-full text-stone-400 hover:text-gold transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </header>
+
+        <!-- Message Section inside Geometric Box -->
+        <section id="message" class="relative z-10 px-6 py-20 bg-white">
+            <div class="relative p-6 border border-stone-200" data-aos="fade-up">
+                <!-- Decorative Corners -->
+                <div class="absolute -top-1 -left-1 w-2 h-2 bg-gold"></div>
+                <div class="absolute -top-1 -right-1 w-2 h-2 bg-gold"></div>
+                <div class="absolute -bottom-1 -left-1 w-2 h-2 bg-gold"></div>
+                <div class="absolute -bottom-1 -right-1 w-2 h-2 bg-gold"></div>
+
+                <h2 class="font-serif text-3xl text-center mb-8 pt-4">Taqabbalallahu<br>Minna Wa Minkum</h2>
+                
+                <div class="space-y-6 text-[15px] font-light leading-relaxed text-stone-600 pb-4 text-center">
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        Alhamdulillah, we made it through another beautiful Ramadan. Semoga Allah menerima semua puasa dan doa kita.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Dan, I just wanted to say thank you. Terima kasih sudah menjadi <em>sahabat syurga</em> yang selalu mengingatkan pada kebaikan. Terima kasih juga sudah menjadi konsultan peroutfitan selama ini haha. Di momen fitri ini, I want to ask for your forgiveness. Maafkan segala salah dan candaan yang kelewatan ya.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="300">
+                        May this Eid bring you and your family immense joy. Semoga persahabatan kita eternal until Jannah. Amin.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image in Geometric Arch -->
+        <section class="px-6 py-10 relative z-10 bg-white flex justify-center">
+            <div data-aos="zoom-in" data-aos-duration="1200" class="arch-mask w-full max-w-[280px] h-[380px] border-[6px] border-stone-50 relative p-1 shadow-sm">
+                <img src="Dsans-271.jpg" 
+                     alt="Foto Kebersamaan" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1596547609652-9cb5d8d736bb?q=80&w=2070&auto=format&fit=crop';"
+                     loading="lazy"
+                     class="w-full h-full object-cover arch-mask grayscale-[20%]">
+                <!-- Geometric overlay line -->
+                <div class="absolute inset-0 border border-gold/30 arch-mask m-3 pointer-events-none"></div>
+            </div>
+        </section>
+
+        <!-- Closing Quote & Footer -->
+        <section class="px-8 py-20 relative z-10 text-center bg-geometric">
+            <!-- Geometric Circles -->
+            <div class="flex justify-center items-center gap-2 mb-8" data-aos="fade-up">
+                <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+                <div class="w-2.5 h-2.5 rounded-full bg-gold"></div>
+                <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+            </div>
+
+            <p data-aos="fade-up" data-aos-delay="200" class="font-serif text-xl italic text-stone-700 leading-relaxed mb-16">
+                "Sahabat sejati adalah mereka yang membantumu menuju surga-Nya."
+            </p>
+
+            <footer class="mt-10 border-t border-stone-200 pt-8" data-aos="fade-in" data-aos-delay="400">
+                <p class="text-xs tracking-widest uppercase text-stone-400 mb-2">Happy Eid Al-Fitr 2026</p>
+                <p class="font-serif text-sm text-gold">Untuk Dandi</p>
+            </footer>
+        </section>
+
+    </main>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 30,
+            duration: 1000,
+            easing: 'ease-out-cubic',
+            once: true,
+        });
+    </script>
+</body>
+</html>
